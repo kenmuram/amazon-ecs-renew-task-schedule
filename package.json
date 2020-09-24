@@ -1,0 +1,19 @@
+{
+  "name": "amazon-ecs-renew-task-schedule",
+  "version": "1.0.0",
+  "description": "Renew task definition for Amazon ECS Task Schedule.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenmuram/amazon-ecs-renew-task-schedule.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenmuram/amazon-ecs-renew-task-schedule/issues"
+  },
+  "homepage": "https://github.com/kenmuram/amazon-ecs-renew-task-schedule#readme"
+}
