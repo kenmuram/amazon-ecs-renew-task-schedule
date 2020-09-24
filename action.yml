@@ -1,0 +1,15 @@
+name: 'Amazon ECS Renew Task Schedule'
+description: 'Renew Task Definition for Amazon ECS Task Schedule'
+branding:
+  icon: 'cloud'
+  color: 'orange'
+inputs:
+  task-definition:
+    description: ''
+    required: true
+  cluster:
+    description: ''
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

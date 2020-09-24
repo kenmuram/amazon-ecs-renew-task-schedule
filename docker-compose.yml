@@ -4,4 +4,3 @@ services:
     build: .
     volumes:
       - .:/usr/src/amazon-ecs-renew-task-schedule
-    command: sh
