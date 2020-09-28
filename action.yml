@@ -4,11 +4,11 @@ branding:
   icon: 'cloud'
   color: 'orange'
 inputs:
-  update-task-definition-arn:
-    description: 'ECS task definition arn'
-    required: true
   cluster:
     description: 'ECS cluster'
+    required: true
+  update-task-definition-arn:
+    description: 'ECS task definition arn'
     required: true
 runs:
   using: 'node12'
